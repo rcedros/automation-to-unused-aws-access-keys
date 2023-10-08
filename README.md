@@ -1,1 +1,1 @@
-# Automation to disable your unused AWS Access Keys
+# Automation to unused AWS Access Keys
