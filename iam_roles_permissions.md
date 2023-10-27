@@ -1,4 +1,27 @@
-## LambdaStsAssumeRole
+## Cross-account IAM Roles and policy permission
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListAccessKeys",
+                "iam:UpdateAccessKey",
+                "iam:ListUsers",
+                "iam:GetAccessKeyLastUsed"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
+```
+## Lambda Permission
+
+### LambdaStsAssumeRole
 ```
 {
     "Version": "2012-10-17",
@@ -11,7 +34,8 @@
     ]
 }
 ```
-## S3-PutObject-Lambda
+
+### S3-PutObject-Lambda
 ```
 {
     "Version": "2012-10-17",
@@ -27,7 +51,8 @@
     ]
 }
 ```
-## SNS-Push-Message
+### SNS-Push-Message
+
 ```
 {
     "Version": "2012-10-17",
