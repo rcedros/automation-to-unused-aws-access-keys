@@ -1,6 +1,6 @@
 # Automation to unused AWS Access Keys
 
-This article describes the methodology for automating the deactivation of access keys in all AWS accounts that have not been used for more than 90 days, taking advantage of a set of AWS services: Lambda, Python, SNS, S3, EventBridge and IAM Roles.
+This article describes the methodology for automating the deactivation of access keys in all AWS accounts that have not been used for more than N's days, taking advantage of a set of AWS services: Lambda, Python, SNS, S3, EventBridge and IAM Roles.
 
 
 # Architecture
