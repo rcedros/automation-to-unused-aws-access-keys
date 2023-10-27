@@ -18,6 +18,8 @@ To automate this process, I’ve configured EventBridge to invoke this Lambda fu
 5. **EventBridge**: Invoke and schedule automation.
 6. **S3**: Save csv file with results in a bucket (optional).
 
+![image](https://user-images.githubusercontent.com/12600917/278735475-79f48b9c-3465-4804-a398-7c36e75a8a20.png)
+
 ## Setup
 1. Creating a cross-account IAM Role in all AWS Accounts and give IAM permissions to desactivate AccessKeys.
 3. Create a Lambda Function, upload this github file in .zip format and give their role permissions.
